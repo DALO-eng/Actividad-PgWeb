@@ -1,0 +1,13 @@
+#himno{
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+}
+.parrafo{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.parrafo::first-letter{
+    font-size: 2em;
+    color: red;
+}
