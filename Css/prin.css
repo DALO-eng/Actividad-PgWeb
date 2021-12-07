@@ -10,20 +10,24 @@ body {
   .header {
     text-justify: auto;
     background: #31bc9b;
+    
   }
   .header img{
       width: auto;
       height: auto;
+      
   }
   .header h2 {
+
     font-size: 50px;
     color: white;
+    padding: 1em;
   }
   .topnav {
     display: flex;
     background-color: #333;
-    align-content: center;
-    
+    text-align: center;
+
   }
   
  
@@ -34,8 +38,25 @@ body {
     text-align: center;
   }
   
+  .footer {
+    display: flex;
+    text-align: center;
+    background-color: #fb853d;
+    align-content: center;
+
+  }
   
-  .topnav a:hover {
+ 
+  .footer a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  
+  .footer a:hover {
     background-color: #ddd;
     color: black;
   }
+
