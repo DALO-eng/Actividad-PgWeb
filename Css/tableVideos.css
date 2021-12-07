@@ -1,0 +1,18 @@
+video{
+    width: 70%;
+}
+table, td, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#tableVideos{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+#tableVideos tr td{
+    width: 33.3%;
+}
+#tableVideos th td{
+    width: 33.3%;
+}
