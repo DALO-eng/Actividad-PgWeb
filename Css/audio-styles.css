@@ -1,0 +1,21 @@
+.heading {
+    width: 80%;
+    margin: 5%;
+    padding-bottom: 2%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
