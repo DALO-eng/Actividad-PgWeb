@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <!-- Style links -->
+    <link rel="stylesheet" href="./Css/styles-form.css">
+</head>
+<body>
+    <section class="main_div">
+        <div class="forms">
+            <form action="">
+                <fieldset>
+                    <legend class="title_form">Uso de internet</legend>
+                        <div class="separeted-input">
+                            <label for="name_1">Nombre: </label>
+                            <input type="text" name="first-name" id="name_1" required><br>
+                        </div>
+                        <div class="separeted-input">
+                            <label for="last-name_1">Apellido:</label>
+                            <input type="text" name="last-name_1" id="lt-name_1" required>
+                        </div>
+                        <div class="separeted-input">
+                            <label for="date">Fecha de nacimiento:</label>
+                            <input type="date" name="date" id="date" required>
+                        </div>
+                        <div class="separeted-input">
+                            <label for="date-2">Fecha y hora de nacimiento:</label>
+                            <input type="datetime-local" name="date-2" id="date-2" required>
+                        </div>
+                </fieldset>
+                <fieldset>
+                    <legend class="title_form">Uso de internet</legend>
+                        <div class="separeted-input">
+                            <input type="radio" name="yes" id="internet" required>Si<br>
+                            <input type="radio" name="yes" id="internet" required>No<br>
+                        </div>
+                </fieldset>
+                <fieldset>
+                    <legend class="title_form">Deportes preferidos</legend>
+                        <div class="separeted-input">
+                            <input type="checkbox" name="sport-1" id="tenis">
+                            <label for="sport-1">Tenis</label><br>
+                            <input type="checkbox" name="sport-2" id="futbol">
+                            <label for="sport-2">Futbol</label><br>
+                            <input type="checkbox" name="sport-3" id="baloncesto">
+                            <label for="sport-3">Baloncesto</label><br>
+                        </div>
+                </fieldset>
+                <fieldset>
+                    <legend class="title_form">Musica preferida</legend>
+                        <div class="separeted-input">
+                            <label for="music">Selecciona un genero: </label>
+                            <input list="genders" name="music">
+                            <datalist id="genders">
+                                <option value="Rock">Rock</option>
+                                <option value="Jazz">Jazz</option>
+                                <option value="Metal">Metal</option>
+                                <option value="Indie">Indie</option>
+                                <option value="Tango">Tango</option>
+                            </datalist>
+                        </div>
+                </fieldset>
+            </form>
+        <button type="button" class="btn btn-danger">Danger</button>
+    </section>
+</body>
+</html>
